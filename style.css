@@ -13,7 +13,7 @@ html::-webkit-scrollbar-track{
     background: transparent;
 }
 html::-webkit-scrollbar-thumb{
-    background: #b2744c;
+    background: #FFC0CB;
     border-radius: 10px;
 }
 html::-webkit-scrollbar{
@@ -22,12 +22,13 @@ html::-webkit-scrollbar{
 
 /* navbar   */
 #navbar{
-    background:#ffd9e3;
+    background:white;
+    height: 150px;
 }
 #logo img{
     border-radius: 10px;
     width: 160px;
-    margin-left: 40px;
+    margin-left: 100px;
 }
 .navbar-nav{
     margin-left: 50px;
@@ -43,3 +44,55 @@ html::-webkit-scrollbar{
     border-radius: 5px;
     color: black;
 }
+
+#navbar form button{
+
+    background: black;
+    color: white;
+    border: 1px solid white;
+
+}
+/* navbar   */
+
+/* home section */
+#home{
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(./img/Banner\ curso\ de\ nail\ designer\ rosa\ mulher\ unhas.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 88%;
+}
+
+#home .content{
+    padding-top: 210px;
+    margin-left: 56px;
+}
+
+#home .content h3{
+    font-size: 50px;
+    color: white;
+}
+
+#home .content p{
+    margin-top: 10px;
+    color: white;
+}
+#btn{
+    width: 150px;
+    height: 50px;
+    margin-top: 100px;
+    background: white;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    transition: 0.5 ease;
+    cursor: pointer;
+}
+
+#btn:hover{
+    background: #FF69B4;
+    color: white;
+}
+
+/* home section */
